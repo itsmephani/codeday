@@ -1,10 +1,9 @@
-﻿using System;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 
 namespace CodeDay.Models
 {
   class Person : INotifyPropertyChanged
-  {
+	{
 		private int age;
 		public string Name;
 		public int Age {
@@ -14,6 +13,8 @@ namespace CodeDay.Models
 				NotifyPropertyChanged(nameof(Age));
 			}
 		}
+
+		// Need for INotifyPropertyChanged.
 		public event PropertyChangedEventHandler PropertyChanged;
 
 		public Person(string name, int age)
