@@ -5,10 +5,26 @@ namespace CodeDay.Models
 {
   class Person : INotifyPropertyChanged
   {
-    public Person()
+		private int age;
+		public string Name;
+		public int Age {
+			get { return age; }
+			set {
+				age = value;
+				NotifyPropertyChanged(nameof(Age));
+			}
+		}
+		public event PropertyChangedEventHandler PropertyChanged;
+
+		public Person(string name, int age)
     {
+			Name = name;
+			Age = age;
     }
 
-    public event PropertyChangedEventHandler PropertyChanged;
-  }
+		private void NotifyPropertyChanged(string property) 
+		{
+			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(property));
+    }
+	}
 }
