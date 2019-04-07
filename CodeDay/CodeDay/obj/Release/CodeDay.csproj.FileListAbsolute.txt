@@ -1,0 +1,6 @@
+/Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/bin/Release/CodeDay.exe.config
+/Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/bin/Release/CodeDay.exe
+/Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/bin/Release/CodeDay.pdb
+/Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/obj/Release/CodeDay.csproj.CoreCompileInputs.cache
+/Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/obj/Release/CodeDay.exe
+/Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/obj/Release/CodeDay.pdb

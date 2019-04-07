@@ -1,0 +1,7 @@
+/Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/bin/Debug/CodeDay.exe.config
+/Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/bin/Debug/CodeDay.exe
+/Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/bin/Debug/CodeDay.pdb
+/Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/obj/Debug/CodeDay.csprojAssemblyReference.cache
+/Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/obj/Debug/CodeDay.csproj.CoreCompileInputs.cache
+/Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/obj/Debug/CodeDay.exe
+/Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/obj/Debug/CodeDay.pdb
