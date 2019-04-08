@@ -15,6 +15,17 @@ namespace CodeDay
 			person.PropertyChanged += PropertyChange_Handler;
 
 			person.Age = 28;
+
+      People people = new People();
+      people.Add(person);
+      people.Add(new Person("Sai", 20));
+
+      foreach (Person p in people)
+      {
+        Console.WriteLine(p.Name + p.Age);
+      }
+
+      Console.ReadLine();
 		}
 
 		private static void PropertyChange_Handler(Object sender, PropertyChangedEventArgs e)

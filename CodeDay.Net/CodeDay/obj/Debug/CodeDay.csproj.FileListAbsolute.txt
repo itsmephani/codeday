@@ -5,3 +5,10 @@
 /Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/obj/Debug/CodeDay.csproj.CoreCompileInputs.cache
 /Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/obj/Debug/CodeDay.exe
 /Users/phani/Repo/Phani/codeday/CodeDay/CodeDay/obj/Debug/CodeDay.pdb
+D:\codeday\CodeDay.Net\CodeDay\bin\Debug\CodeDay.exe.config
+D:\codeday\CodeDay.Net\CodeDay\bin\Debug\CodeDay.exe
+D:\codeday\CodeDay.Net\CodeDay\bin\Debug\CodeDay.pdb
+D:\codeday\CodeDay.Net\CodeDay\obj\Debug\CodeDay.csprojAssemblyReference.cache
+D:\codeday\CodeDay.Net\CodeDay\obj\Debug\CodeDay.csproj.CoreCompileInputs.cache
+D:\codeday\CodeDay.Net\CodeDay\obj\Debug\CodeDay.exe
+D:\codeday\CodeDay.Net\CodeDay\obj\Debug\CodeDay.pdb
