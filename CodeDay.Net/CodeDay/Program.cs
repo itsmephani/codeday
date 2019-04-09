@@ -26,6 +26,9 @@ namespace CodeDay
       }
 
       Console.ReadLine();
+	    // ref and out both take pass by reference.
+	    // ref is two way where as out will only assign back value 
+	    // to the passed reference but can't be used as input.
 		}
 
 		private static void PropertyChange_Handler(Object sender, PropertyChangedEventArgs e)
