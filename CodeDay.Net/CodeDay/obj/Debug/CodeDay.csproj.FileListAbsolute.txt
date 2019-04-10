@@ -12,3 +12,8 @@ D:\codeday\CodeDay.Net\CodeDay\obj\Debug\CodeDay.csprojAssemblyReference.cache
 D:\codeday\CodeDay.Net\CodeDay\obj\Debug\CodeDay.csproj.CoreCompileInputs.cache
 D:\codeday\CodeDay.Net\CodeDay\obj\Debug\CodeDay.exe
 D:\codeday\CodeDay.Net\CodeDay\obj\Debug\CodeDay.pdb
+D:\codeday\CodeDay.Net\CodeDay\bin\Debug\System.Net.Http.Extensions.dll
+D:\codeday\CodeDay.Net\CodeDay\bin\Debug\System.Net.Http.Formatting.dll
+D:\codeday\CodeDay.Net\CodeDay\bin\Debug\System.Net.Http.Primitives.dll
+D:\codeday\CodeDay.Net\CodeDay\bin\Debug\Newtonsoft.Json.dll
+D:\codeday\CodeDay.Net\CodeDay\obj\Debug\CodeDay.csproj.CopyComplete
