@@ -1,7 +1,7 @@
 ﻿using CodeDay.Github.Models;
 using System.Collections.Generic;
 using System.Net.Http;
-using System.Net.Http.Formatting;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
 namespace CodeDay.Github
@@ -15,6 +15,8 @@ namespace CodeDay.Github
     {
       List<Repo> repos = null;
       string url = $"{GITHUB_BASE_URL}users/{userName}/repos";
+      MediaTypeWithQualityHeaderValue m = new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json");
+      client.DefaultRequestHeaders.Accept.Add(m);
       HttpResponseMessage response = await client.GetAsync(url);
       if (response.IsSuccessStatusCode)
       {
