@@ -27,5 +27,41 @@ namespace CodeDay.Models
 		{
 			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(property));
     }
+
+    public class Builder
+    {
+      Person person;
+      string name;
+      int age;
+
+      public Builder SetName(string name)
+      {
+        this.name = name;
+
+        return this;
+      }
+
+      public Builder SetAge(int age)
+      {
+        this.age = age;
+
+        return this;
+      }
+
+      public string GetName()
+      {
+        return name;
+      }
+
+      public int GetAge()
+      {
+        return age;
+      }
+
+      public Person Build()
+      {
+        return new Person(name, age);
+      }
+    }
 	}
 }

@@ -62,8 +62,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DesignPatterns\Builder\PersonInformation.cs" />
+    <Compile Include="DesignPatterns\Runner.cs" />
     <Compile Include="Github\Models\Repo.cs" />
     <Compile Include="Github\GithubService.cs" />
+    <Compile Include="Models\Address.cs" />
     <Compile Include="Models\People.cs" />
     <Compile Include="Models\PeopleEnumerator.cs" />
     <Compile Include="Models\Person.cs" />
@@ -74,5 +77,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
