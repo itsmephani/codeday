@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodeDay.Models
 {
-  class Address
+  public class Address
   {
     public string FlatNo { get; set; }
     public string Lane { get; set; }

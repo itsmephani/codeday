@@ -7,7 +7,7 @@ namespace CodeDay.DesignPatterns
   {
     public static void Run()
     {
-      PersonInformation personInformation = new PersonInformation();
+      PersonInformation.Builder personInformationBuilder = new PersonInformation.Builder();
 
       Person.Builder personBuilder = new Person.Builder();
       Person person = personBuilder.SetAge(28).SetName("Name").Build();
@@ -16,9 +16,12 @@ namespace CodeDay.DesignPatterns
       Address.Builder address = new Address.Builder();
       address.SetFlatNo("2").SetLane("Lane").SetLandmark("Landmark");
 
-      personInformation.SetPerson(personBuilder).SetAddress(address).buil;
+      personInformationBuilder
+        .SetPerson(personBuilder)
+        .SetAddress(address)
+        .Build();
 
-      personInformation.GetPerson().GetAge();
+      personInformationBuilder.GetPerson().GetAge();
     }
   }
 }

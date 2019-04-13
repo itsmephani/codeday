@@ -2,7 +2,7 @@
 
 namespace CodeDay.Models
 {
-  class Person : INotifyPropertyChanged
+  public class Person : INotifyPropertyChanged
 	{
 		private int age;
 		public string Name;

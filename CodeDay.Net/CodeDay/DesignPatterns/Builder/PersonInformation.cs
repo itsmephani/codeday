@@ -7,31 +7,52 @@ namespace CodeDay.DesignPatterns.Builder
     public Person Person;
     public Address Address;
 
-    public PersonInformation(PersonInformation.Builder personInformationBuilder)
+    public PersonInformation()
     {
-      Person = new Person(personInformationBuilder.GetPerson().GetName(),
-         personInformationBuilder.GetPerson().GetAge());
-
-      Address = new Address {
-        FlatNo =  personInformationBuilder.GetAddress().GetFlatNo(),
-        Lane =  personInformationBuilder.GetAddress().GetLane(),
-        Landmark = personInformationBuilder.GetAddress().GetLandmark()
-      };
+      
     }
 
     public class Builder
     {
-      private Person.Builder person;
-      private Address.Builder address;
+      private Person.Builder personBuilder;
+      private Address.Builder addressBuilder;
 
       public Person.Builder GetPerson()
       {
-        return person;
+        return personBuilder;
       }
 
       public Address.Builder GetAddress()
       {
-        return address;
+        return addressBuilder;
+      }
+
+      public Builder SetPerson(Person.Builder p)
+      {
+         personBuilder = p;
+
+         return this;
+      }
+
+      public Builder SetAddress(Address.Builder a)
+      {
+        addressBuilder = a;
+
+        return this;
+      }
+
+      public PersonInformation Build()
+      {
+        return new PersonInformation {
+          Person = new Person(GetPerson().GetName(),
+           GetPerson().GetAge()),
+          Address = new Address
+          {
+            FlatNo = GetAddress().GetFlatNo(),
+            Lane = GetAddress().GetLane(),
+            Landmark = GetAddress().GetLandmark()
+          }
+        };
       }
     }
   }
